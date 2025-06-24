@@ -32,6 +32,7 @@ function play(){
             if (board[Math.floor(num / 3)][num % 3] === ""){
                 board[Math.floor(num / 3)][num % 3] = p1Turn ? player1 : player2
                 square.innerText = board[Math.floor(num / 3)][num % 3]
+                square.style.color = "black"
                 p1Turn = !p1Turn;
                 moves++;
                 console.table(board)

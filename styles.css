@@ -18,6 +18,7 @@ body {
 .square {
     border: 5px solid black;
     color: transparent;
+    text-align: center;
 }
 
 
@@ -25,3 +26,4 @@ body {
   pointer-events: none;
   opacity: 0.5; 
 }
+
